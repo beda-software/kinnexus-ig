@@ -2,7 +2,7 @@ update-publisher:
 	./_updatePublisher.sh
 
 build:
-	./_genonce.sh
+	./_genonce.sh --publish
 
 open-ig:
 	open ./output/index.html
